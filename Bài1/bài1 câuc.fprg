@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="b&#224;i1 c&#226;uc"/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-08 10:10:06 PM"/>
+        <attribute name="created" value="QWRtaW47REVTS1RPUC1LTFVPSlExOzIwMjQtMTAtMDg7MDk6NDU6NDQgUE07Mjg3OA=="/>
+        <attribute name="edited" value="QWRtaW47REVTS1RPUC1LTFVPSlExOzIwMjQtMTAtMDg7MTA6MTA6MDYgUE07MTsyOTY4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Ng&#244; M&#7841;nh Nguy&#234;n&quot;" newline="True"/>
+            <output expression="&quot;MSSV:235752021610058&quot;" newline="True"/>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <output expression="&quot;nh&#7853;p b&#225;n k&#237;nh r&quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;di&#7879;n t&#237;ch l&#224;&quot;&amp;vongtron(x)" newline="True"/>
+        </body>
+    </function>
+    <function name="vongtron" type="Real" variable="dientich">
+        <parameters>
+            <parameter name="r" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="dientich" type="Real" array="False" size=""/>
+            <assign variable="dientich" expression="3.14*r^2"/>
+        </body>
+    </function>
+</flowgorithm>
