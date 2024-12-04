@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="b&#224;i1 cau a"/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-08 09:45:38 PM"/>
+        <attribute name="created" value="QWRtaW47REVTS1RPUC1LTFVPSlExOzIwMjQtMTAtMDg7MDg6MjQ6MjUgUE07Mjg3Mw=="/>
+        <attribute name="edited" value="QWRtaW47REVTS1RPUC1LTFVPSlExOzIwMjQtMTAtMDg7MDk6NDU6MzggUE07MTsyOTg5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Ng&#244; M&#7841;nh Nguy&#234;n&quot;" newline="True"/>
+            <output expression="&quot;MSSV:235752021610058&quot;" newline="True"/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <for variable="n" start="5" end="1" direction="dec" step="1">
+                <if expression="n==1">
+                    <then>
+                        <output expression="&quot;1 chai&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="n&amp;&quot;chai&quot;" newline="True"/>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
